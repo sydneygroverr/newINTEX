@@ -1,0 +1,9 @@
+﻿﻿@if (Context.Request.Cookies["userConsent"] == null)
+{
+    <div id="cookieConsent" class="alert alert-info" role="alert">
+        We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.
+        <button id="acceptCookieConsent" type="button" class="btn btn-primary">
+            Accept
+        </button>
+    </div>
+}
