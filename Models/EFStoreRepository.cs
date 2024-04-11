@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using AzureAppINTEX.Models;
+using newINTEX.Models;
 using newINTEX.Data;
 
 namespace newINTEX.Models
